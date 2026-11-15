@@ -20,7 +20,7 @@ from openpyxl.styles import Font, PatternFill, Alignment
 # ================= НАСТРОЙКИ =================
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 ACCESS_PASSWORD = "123456789"  # Пароль для первого входа операторов
-ADMIN_IDS = [1011177377]   # Ваш Telegram ID (числом без кавычек)
+ADMIN_IDS = [1011177377,713249673]   # Ваш Telegram ID (числом без кавычек)
 
 # Часовой пояс: 3 — Москва / Казань (UTC+3)
 LOCAL_TZ = timezone(timedelta(hours=3))
