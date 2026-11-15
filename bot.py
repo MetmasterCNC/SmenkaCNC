@@ -18,7 +18,7 @@ from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 
 # ================= НАСТРОЙКИ =================
-BOT_TOKEN = "9185160463:AAH4cghkfZxPT-ZqL0HQE9AefnR1cLjoiC8"
+BOT_TOKEN = "os.getenv("BOT_TOKEN")"
 ACCESS_PASSWORD = "123456789"  # Пароль для первого входа операторов
 ADMIN_IDS = [1011177377]   # Ваш Telegram ID (числом без кавычек)
 
